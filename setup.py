@@ -29,14 +29,10 @@ import numpy
 
 try:
     import py2exe
-except ImportError:
-    py2exe = None
 
 try:
     import py2app
     from setuptools.extension import Extension
-except ImportError:
-    py2app = None
 
 # make sure our current working directory is the same directory
 # setup.py is in
